@@ -1,0 +1,46 @@
+{
+  "name": "use-reference-state",
+  "version": "1.0.0",
+  "description": "A hook that triggers a re-render when any property is set on an object.",
+  "keywords": [
+    "react",
+    "hook",
+    "state",
+    "reference",
+    "class",
+    "object",
+    "array",
+    "property",
+    "value",
+    "change",
+    "update",
+    "set",
+    "re-render",
+    "rerender",
+    "render"
+  ],
+  "author": "Tim Phillips",
+  "license": "ISC",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest",
+    "lint": "eslint",
+    "format": "prettier . --write",
+    "prepare": "npm run build"
+  },
+  "peerDependencies": {
+    "react": ">= 16.8.0",
+    "react-dom": ">= 16.8.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.3.0",
+    "@types/react": "^16.14.60",
+    "globals": "^15.3.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.11.0"
+  }
+}
